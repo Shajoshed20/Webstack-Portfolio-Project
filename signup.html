@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Signup</title>
+    <link rel="stylesheet" href="front_end/CSS/style.css">
+    <link rel="stylesheet" href="front_end/bootstrap-5.1.3/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="front_end/font-awesome-4.7.0/css/font-awesome.css">
+    <script src="front_end/bootstrap-5.1.3/dist/js/bootstrap.bundle.js"></script>
+</head>
+
+    <body>
+        <section class="nav">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html" style="color: #2d7979; font-size: 25px;">
+                        <img src="front_end/images/logo.jpg" alt="Logo" width="40px" height="40px">
+                        NeuroNutrire
+                      </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#service">SERVICES</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT US</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </section>
+
+        <!-----------------------Signup Section--------------------->
+
+        <form>
+          <h1>First Time Sign UP</h1>
+          <p>Please fill in this form to create an account. Note: Your privacy</p>
+          <hr>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <!--------------Services Columns------------->
+        <section id="services">
+          <div class="container text-center">
+            <div class="title">
+              <a id="service" style="text-decoration: none; color: #2d7979;">
+              <h1>Services</h1>
+              </a>
+            </div>
+            <div class="row">
+              <div class="col services">
+                <img src="front_end/images/4997671-editted.png" height="300px" width="400px">
+                <h4>Monitor your Mental Health</h4>
+                <p>Embark on a journey of mindful beginnings, leading to fulfilling endings, as we support your mental health with compassion and understanding.</p>
+                <a href="#" style="color: #2d7979;">Learn more...</a>
+              </div>
+              <div class="col services">
+                <img src="front_end/images/Family_with_kid_visiting_pediatrician_flat_vector_illustration-editted.png" height="300px" width="400px">
+                <h4>Register as a Guardian</h4>
+                <p>Healing minds and renewing spirits are at the heart of our mission, creating a space where children can find peace and serenity.</p>
+                <a href="#" style="color: #2d7979;">Learn more...</a>
+              </div>
+              <div class="col services">
+                <img src="front_end/images/3836182-editted.png" height="300px" width="400px">
+                <h4>Find A Therapist</h4>
+                <p>Choose from our numerous therapists, who help navigate the paths to mental wellness with us, where understanding and support intersect to create a roadmap for your mental health journey.</p>
+                <a href="#" style="color: #2d7979;">Learn more...</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="footer">
+          <p style="text-align: center;">©NeuroNutrire. Designed by Ugochi Talabi; Backend by Iyioluwa Awe</p>
+          <p style="text-align: right;">Connect with us via: 
+            <a href="#"><img src="front_end/images/icons/facebook-icon.png" alt="facebook" height="25px" width="25px"></a>
+            <a href="#"><img src="front_end/images/icons/instagram-icon.png" alt="instagram" height="25px" width="25px"></a>
+            <img src="front_end/images/icons/twitter-icon.png" alt="twitter-x" height="25px" width="25px">
+          </p>
+          </footer>
+    </body>
+</html>
+</html>

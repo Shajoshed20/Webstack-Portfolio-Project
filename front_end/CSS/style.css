@@ -1,0 +1,225 @@
+/*All CSS for Portfolio */
+html {
+  background-image: linear-gradient(to right, #f0f8ff, #a04d99);
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+/*-------Navigation Bar------*/
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-image: linear-gradient(to right, #f0f8ff, #a04d99);
+  padding: auto;
+}
+
+.navbar {
+  color: black;
+  padding: 0 !important;
+  top: 10px;
+  bottom: 10px;
+}
+
+.navbar-nav {
+  margin-left: auto !important;
+  float: right;
+  padding: 0;
+}
+.navbar-nav li {
+  color: black !important;
+  padding: 0 10px;
+}
+.nav-link {
+  display: block;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  float: right;
+  margin: auto;
+  text-align: left;
+}
+.nav-link:hover {
+  background-color: #c76cbf;
+  border-radius: 30px;
+}
+
+.navbutton {
+  display: flex;
+  width: 100%;
+  margin: 0px;
+  float: right;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+.fa-bars {
+  color: black;
+  font-size: 25px;
+  float: right;
+}
+
+/*------------------------Banner Section------------------------*/
+#banner {
+  background-image: linear-gradient(to right, #f0f8ff, #a04d99);
+  color: black;
+  padding-top: 5%;
+}
+.promo-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+.bottom-wave {
+  width: 100%;
+}
+
+#login {
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 42px;
+  margin: 10px;
+  width: 200px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+#login:hover {
+  background-color: #c76cbf;
+}
+#getstart {
+  background-color: #878cd6;
+  color: black;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 42px;
+  margin: 10px;
+  width: 200px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  text-wrap: nowrap;
+}
+
+#getstart:hover {
+  background-color: #c76cbf;
+}
+
+/*---------------------Signin Banner Section-------------------*/
+#signin {
+  background-image: linear-gradient(to right, #f0f8ff, #a04d99);
+  color: black;
+  padding-top: 5%;
+}
+
+.login-title {
+  font-size: 30px;
+  font-weight: 400;
+}
+.login-form {
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10px;
+  margin: 100px;
+}
+
+.login-form input {
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  border-radius: 30px;
+  align-items: center;
+  border: none;
+}
+
+.login-form button {
+  background-color: #2d7979;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 42px;
+  margin: 20px;
+  width: 300px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.login-form button:hover {
+  background-color: #c76cbf;
+}
+
+.rmb {
+  float: left;
+}
+
+/*---------------------Signup Banner Section-------------------*/
+
+.signup-form {
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10px;
+  margin: 100px;
+}
+
+/*-------------Services-------------*/
+#services {
+  margin: 50px;
+  padding: 80px 0;
+}
+
+.services {
+  padding: 20px;
+}
+
+.services h4 {
+  padding: 5px;
+  margin-top: 25px;
+}
+
+.title::before {
+  content: "";
+  background: #878cd6;
+  height: 5px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+
+.title::after {
+  content: "";
+  background: #a04d99;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  display: block;
+  transform: translateY(0px);
+}
+
+/*-------------------About Us Section--------------------*/
+
+#about-us {
+  background: #ebe9e9;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.about-title {
+  margin-top: 8%;
+}
