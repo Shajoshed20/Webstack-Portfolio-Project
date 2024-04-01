@@ -3,7 +3,7 @@
 My personal portfolio project built with JavaScript, CSS and HTML, deployed on [Vercel](https://vercel.com).
 
 This project is a web application created to serve the purpose of assisting adults and children track an handle mental disorder. Its goal is to present them with an aid that helps them improve their character traits and routines to live a more organised, efficient, and satisfying life.
-Here is the link to the landing page: 
+Here is the link to the landing page: [portfolio](https://webstack-portfolio-project-beryl.vercel.app/).
 
 This project is created in fulfillment of the ALX Software Engineering Certificate: Front-end Specialisation.
 
