@@ -1,4 +1,6 @@
 /*All CSS for Portfolio */
+
+@import url("https://fonts.googleapis.com/css?family=Varela Round");
 html {
   background-image: linear-gradient(to right, #f0f8ff, #a04d99);
 }
@@ -39,7 +41,7 @@ body {
   text-decoration: none;
   font-size: 20px;
   color: black !important;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Varela Round';
   font-weight: 600;
   float: right;
   margin: auto;
@@ -77,6 +79,8 @@ body {
   font-size: 40px;
   font-weight: 600;
   margin-top: 100px;
+  font-family: 'Varela Round';
+  font-size: 40px;
 }
 
 .bottom-wave {
