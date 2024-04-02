@@ -162,8 +162,11 @@ body {
   background-color: #c76cbf;
 }
 
-.rmb {
-  float: left;
+.form-check-input {
+  justify-content: center;
+  align-items: center;
+  size: 20px;
+  
 }
 
 /*---------------------Signup Banner Section-------------------*/
