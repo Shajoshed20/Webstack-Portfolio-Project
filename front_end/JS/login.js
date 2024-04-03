@@ -5,7 +5,7 @@ function sigin_login() {
 
   /*Check username and password*/
   if (username == "admin" && password == "admin") {
-    window.location.href = "dasboard.html";
+    window.location.href = "dashboard.html";
 
     return false;
   } else {
