@@ -2,7 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Varela Round");
 html {
-  background-image: linear-gradient(to right, #f0f8ff, #a04d99);
+  background-image: linear-gradient(to right, #f0f8ff, #c38d9e);
 }
 
 body {
@@ -15,7 +15,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 10;
-  background-image: linear-gradient(to right, #f0f8ff, #a04d99);
+  background-image: linear-gradient(to right, #f0f8ff, #c38d9e);
   padding: auto;
 }
 
@@ -71,8 +71,7 @@ body {
 
 /*------------------------Banner Section------------------------*/
 #banner {
-  background-image: linear-gradient(to right, #f0f8ff, #a04d99);
-  color: black;
+  background-image: linear-gradient(to right, #f0f8ff, #c38d9e);
   padding-top: 5%;
 }
 .promo-title {
@@ -118,55 +117,77 @@ body {
 }
 
 /*---------------------Signin Banner Section-------------------*/
-#signin {
-  background-image: linear-gradient(to right, #f0f8ff, #a04d99);
-  color: black;
-  padding-top: 5%;
+
+.login-dark {
+  height:1000px;
+  background: #e8a87c url(../images/home2.png);
+  background-size:cover;
+  position:relative;
 }
 
-.login-title {
-  font-size: 30px;
-  font-weight: 400;
-}
-.login-form {
-  background-color: #d9d9d9;
-  border-radius: 20px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding-bottom: 10px;
-  margin: 100px;
-}
-
-.login-form input {
-  padding: 10px;
-  margin: 10px;
-  width: 300px;
-  border-radius: 30px;
-  align-items: center;
-  border: none;
+.login-dark form {
+  max-width:320px;
+  width:90%;
+  background-color:#1e2833;
+  padding:40px;
+  border-radius:4px;
+  transform:translate(-50%, -50%);
+  position:absolute;
+  top:50%;
+  left:50%;
+  color:#fff;
+  box-shadow:3px 3px 4px rgba(0,0,0,0.2);
 }
 
-.login-form button {
-  background-color: #2d7979;
-  border-radius: 30px;
-  border: none;
-  padding: 10px 42px;
-  margin: 20px;
-  width: 300px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-}
-.login-form button:hover {
-  background-color: #c76cbf;
+.login-dark .illustration {
+  text-align:center;
+  padding:15px 0 20px;
+  font-size:100px;
+  color:#41b3a3;
 }
 
-.form-check-input {
-  justify-content: center;
-  align-items: center;
-  size: 20px;
-  
+.login-dark form .form-control {
+  background:none;
+  border:none;
+  border-bottom:1px solid #434a52;
+  border-radius:0;
+  box-shadow:none;
+  outline:none;
+  color:inherit;
+}
+
+.login-dark form .btn-primary {
+  background:#41b3a3;
+  border:none;
+  border-radius:4px;
+  padding:11px;
+  box-shadow:none;
+  margin-top:26px;
+  text-shadow:none;
+  outline:none;
+}
+
+.login-dark form .btn-primary:hover, .login-dark form .btn-primary:active {
+  background:#85dcb8;
+  outline:none;
+}
+
+.login-dark form .forgot {
+  display:block;
+  text-align:center;
+  font-size:12px;
+  color:#6f7a85;
+  opacity:0.9;
+  text-decoration:none;
+}
+
+.login-dark form .forgot:hover, .login-dark form .forgot:active {
+  opacity:1;
+  text-decoration:none;
+}
+
+.login-dark form .btn-primary:active {
+  transform:translateY(1px);
 }
 
 /*---------------------Signup Banner Section-------------------*/
@@ -216,7 +237,7 @@ select.form-control {
 
 .title::before {
   content: "";
-  background: #878cd6;
+  background: #e27d60;
   height: 5px;
   width: 150px;
   margin-left: auto;
@@ -227,7 +248,7 @@ select.form-control {
 
 .title::after {
   content: "";
-  background: #a04d99;
+  background: #c38d9e;
   height: 10px;
   width: 50px;
   margin-left: auto;
@@ -240,7 +261,7 @@ select.form-control {
 /*-------------------About Us Section--------------------*/
 
 #about-us {
-  background: #ebe9e9;
+  background: #85dcb8;
   padding-bottom: 50px;
   padding-top: 50px;
 }

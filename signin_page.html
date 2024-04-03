@@ -7,12 +7,10 @@
       rel="stylesheet"
       href="front_end/bootstrap-5.1.3/dist/css/bootstrap.css"
     />
-    <link
-      rel="stylesheet"
-      href="front_end/font-awesome-4.7.0/css/font-awesome.css"
-    />
-    <script src="front_end/bootstrap-5.1.3/dist/js/bootstrap.bundle.js"></script>
-    <script src="front_end/JS/login.js"></script>
+    <link rel="stylesheet" href="front_end/font-awesome-4.7.0/css/font-awesome.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
 
   <body>
@@ -22,7 +20,7 @@
           <a
             class="navbar-brand"
             href="index.html"
-            style="color: #a04d99; font-size: 25px"
+            style="color: #e27d60; font-size: 25px"
           >
             <img
               src="front_end/images/logo.png"
@@ -49,7 +47,7 @@
                 <a class="nav-link" href="index.html">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT</a>
+                <a class="nav-link" href="#aboutus">ABOUT</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#service">SERVICES</a>
@@ -66,101 +64,55 @@
     <!-----------------------Signin Section--------------------->
 
     <section id="signin">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 text-center">
-            <img src="front_end/images/icons/home2.png" class="img-fluid" />
-          </div>
-          <div class="col-md-6 text-center">
-            <div class="login-form">
-              <form id="login_form"
-                method="post"
-                name="mylogin_form" onsubmit="return false">
-                <p class="login-title">A RETURNING MEMBER?</p>
-                <input
-                  id="user"
-                  type="text"
-                  placeholder="Enter Username..."
-                /><br />
-                <input
-                  id="password"
-                  type="password"
-                  placeholder="Enter Password..."
-                /><br />
-                <button type="submit" onclick="sigin_login()">Login</button>
-                <!-- <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                  <label class="form-check-label" for="defaultCheck1">Remember me</label>
-                </div> -->
-              </br>
-                <a href="#" style="font-weight: bold;">Forgot Password?</a>
-              </form>
-            </div>
-          </div>
-        </div>
+      <div class="login-dark">
+        <form method="post">
+            <h2 class="sr-only">Login Form</h2>
+            <div class="illustration"><i class="icon ion-ios-locked-outline"></i></div>
+            <div><</div>
+            <div class="form-group"><input class="form-control" type="user" id="user" placeholder="Username..."></div>
+            <div class="form-group"><input class="form-control" type="password" id="password" placeholder="Password..."></div>
+            <div class="form-group"><button class="btn btn-primary btn-block" type="submit" onclick="sigin_login()">Log In</button></div>
+            <a href="#" class="forgot">Forgot your email or password?</a>
+          </form>
       </div>
     </section>
 
     <!--------------Services Columns------------->
     <section id="services">
-      <div class="container text-center">
-        <div class="title">
-          <a id="service" style="text-decoration: none; color: #a04d99">
-            <h1>Services</h1>
-          </a>
-        </div>
-        <div class="row">
-          <div class="col services">
-            <img
-              src="front_end/images/4997671-editted.png"
-              height="300px"
-              width="400px"
-            />
-            <h4>Monitor your Mental Health</h4>
-            <p>
-              Embark on a journey of mindful beginnings, leading to fulfilling
-              endings, as we support your mental health with compassion and
-              understanding.
-            </p>
-            <a href="#" style="color: #a04d99">Learn more...</a>
+          <div class="container text-center">
+            <div class="title">
+              <a id="service" style="text-decoration: none; color: #41b3a3;">
+              <h1>Services</h1>
+              </a>
+            </div>
+            <div class="row">
+              <div class="col services">
+                <img src="front_end/images/4997671-editted.png" height="300px" width="400px">
+                <h4>Monitor your Mental Health</h4>
+                <p>Embark on a journey of mindful beginnings, leading to fulfilling endings, as we support your mental health with compassion and understanding.</p>
+                <a href="#" style="color: #41b3a3;">Learn more...</a>
+              </div>
+              <div class="col services">
+                <img src="front_end/images/Family_with_kid_visiting_pediatrician_flat_vector_illustration-editted.png" height="300px" width="400px">
+                <h4>Register as a Guardian</h4>
+                <p>Healing minds and renewing spirits are at the heart of our mission, creating a space where children can find peace and serenity.</p>
+                <a href="#" style="color: #41b3a3;">Learn more...</a>
+              </div>
+              <div class="col services">
+                <img src="front_end/images/3836182-editted.png" height="300px" width="400px">
+                <h4>Find A Therapist</h4>
+                <p>Choose from our numerous therapists, who help navigate the paths to mental wellness with us, where understanding and support intersect to create a roadmap for your mental health journey.</p>
+                <a href="#" style="color: #41b3a3;">Learn more...</a>
+              </div>
+            </div>
           </div>
-          <div class="col services">
-            <img
-              src="front_end/images/Family_with_kid_visiting_pediatrician_flat_vector_illustration-editted.png"
-              height="300px"
-              width="400px"
-            />
-            <h4>Register as a Guardian</h4>
-            <p>
-              Healing minds and renewing spirits are at the heart of our
-              mission, creating a space where children can find peace and
-              serenity.
-            </p>
-            <a href="#" style="color: #a04d99">Learn more...</a>
-          </div>
-          <div class="col services">
-            <img
-              src="front_end/images/3836182-editted.png"
-              height="300px"
-              width="400px"
-            />
-            <h4>Find A Therapist</h4>
-            <p>
-              Choose from our numerous therapists, who help navigate the paths
-              to mental wellness with us, where understanding and support
-              intersect to create a roadmap for your mental health journey.
-            </p>
-            <a href="#" style="color: #a04d99">Learn more...</a>
-          </div>
-        </div>
-      </div>
-    </section>
+        </section>
 
     <!--------------- About Us -------------->
     <section id="about-us">
       <div class="container text-center">
         <div class="title">
-          <a id="aboutus" style="text-decoration: none; color: #2d7979">
+          <a id="aboutus" style="text-decoration: none; color: #e27d60">
             <h1>About Us</h1>
           </a>
         </div>
@@ -222,7 +174,7 @@
 
     <footer class="footer">
       <p style="text-align: center">
-        ©Àlááfíà. Designed by Ugochi Talabi;
+        ©Àlááfíà. Designed by Ugochi Talabi
       </p>
       <p style="text-align: right">
         Connect with us via:
@@ -248,5 +200,9 @@
         />
       </p>
     </footer>
+    <script src="front_end/bootstrap-5.1.3/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="front_end/JS/login.js"></script>
   </body>
 </html>
