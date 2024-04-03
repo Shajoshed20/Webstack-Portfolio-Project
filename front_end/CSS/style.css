@@ -17,10 +17,11 @@ body {
   z-index: 10;
   background-image: linear-gradient(to right, #f0f8ff, #c38d9e);
   padding: auto;
+  height: 75px;
 }
 
 .navbar {
-  color: black;
+  color: #ac3b61;
   padding: 0 !important;
   top: 10px;
   bottom: 10px;
@@ -32,7 +33,7 @@ body {
   padding: 0;
 }
 .navbar-nav li {
-  color: black !important;
+  color: #ac3b61 !important;
   padding: 0 10px;
 }
 .nav-link {
@@ -40,7 +41,7 @@ body {
   padding: 10px 10px;
   text-decoration: none;
   font-size: 20px;
-  color: black !important;
+  color: #ac3b61 !important;
   font-family: 'Varela Round';
   font-weight: 600;
   float: right;
@@ -48,7 +49,7 @@ body {
   text-align: left;
 }
 .nav-link:hover {
-  background-color: #c76cbf;
+  background-color: #e8a87c;
   border-radius: 30px;
 }
 
@@ -97,10 +98,10 @@ body {
   font-size: 15px;
 }
 #login:hover {
-  background-color: #c76cbf;
+  background-color: #c38d9e;
 }
 #getstart {
-  background-color: #878cd6;
+  background-color: #ac3b61;
   color: black;
   border-radius: 30px;
   border: none;
@@ -113,7 +114,7 @@ body {
 }
 
 #getstart:hover {
-  background-color: #c76cbf;
+  background-color: #c38d9e;
 }
 
 /*---------------------Signin Banner Section-------------------*/
@@ -191,16 +192,6 @@ body {
 }
 
 /*---------------------Signup Banner Section-------------------*/
-
-.signup-form {
-  background-color: #d9d9d9;
-  border-radius: 20px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding-bottom: 10px;
-  margin: 100px;
-}
 
 .form-control:not(select) {
     padding: 1.5rem 0.5rem;
