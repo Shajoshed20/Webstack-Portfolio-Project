@@ -154,6 +154,8 @@ body {
   flex-wrap: wrap;
   gap: 1rem;
   margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .main--title {
@@ -169,8 +171,7 @@ body {
   padding: 1.2rem;
   width: 290px;
   height: 150px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   justify-content: space-between;
   transition: all 0.5s ease-in-out;
 }
@@ -216,3 +217,54 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card-single {
+  background: #bab2b5;
+  padding: 1rem;
+  box-shadow: 4px 4px 6px #ac3b61;
+  border-radius: 2px;
+}
+
+.card-flex {
+  display: grid;
+  grid-template-columns: 70% auto;
+}
+
+.card-head span {
+  display: block;
+  text-transform: uppercase;
+  color: #f0f8ff;
+  font-size: .9rem;
+}
+
+.card-head small {
+  font-weight: 600;
+  color: #f0f8ff;
+}
+
+.card-info h2 {
+font-size: 2.2rem;
+color: #333;
+}
+
+.card-chart span {
+  font-size: 5rem;
+}
+
+.card-chart.sucess span {
+  color: seagreen;
+}
+
+.card-chart.danger span {
+  color: tomato;
+}
+
+.card-chart.sucess span {
+  color: yellow;
+}
