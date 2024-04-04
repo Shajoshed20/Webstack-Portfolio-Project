@@ -257,7 +257,7 @@ color: #333;
   font-size: 5rem;
 }
 
-.card-chart.sucess span {
+.card-chart.success span {
   color: seagreen;
 }
 
@@ -267,4 +267,40 @@ color: #333;
 
 .card-chart.sucess span {
   color: yellow;
+}
+
+.progress-grid {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: auto 68%;
+  gap: 3rem;
+}
+
+.progress-card {
+  background: #fff;
+  padding: 1.5rem;
+}
+
+.progress-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.progress-head span {
+  font-size: 1.5rem;
+}
+
+.progress-chart {
+
+}
+
+.chart-circle {
+  height: 150px;
+  width: 150px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid ;
+  border-bottom: 4px solid transparent;
+  border-top: 4px solid transparent;
 }
