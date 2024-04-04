@@ -227,7 +227,7 @@ body {
 .card-single {
   background: #bab2b5;
   padding: 1rem;
-  box-shadow: 4px 4px 6px #ac3b61;
+  box-shadow: 4px 4px 6px #edc7b7;
   border-radius: 2px;
 }
 
@@ -257,20 +257,12 @@ color: #333;
   font-size: 5rem;
 }
 
-.card-chart.success span {
-  color: seagreen;
-}
-
-.card-chart.danger span {
-  color: tomato;
-}
-
 .card-chart.sucess span {
-  color: yellow;
+  color: #123c69;
 }
 
 .progress-grid {
-  margin-top: 3rem;
+  margin-top: 4rem;
   display: grid;
   grid-template-columns: auto 68%;
   gap: 3rem;
@@ -285,22 +277,69 @@ color: #333;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .progress-head span {
   font-size: 1.5rem;
 }
 
-.progress-chart {
+.progress-chart small{
+  font-weight: 600;
+  color: #555;
+  display: block;
+  margin-bottom: 1rem;
 
 }
 
 .chart-circle {
   height: 150px;
   width: 150px;
-  border-left: 4px solid transparent;
-  border-right: 4px solid ;
-  border-bottom: 4px solid transparent;
-  border-top: 4px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #123c69;
+  border-bottom: 4px solid #123c69;
+  border-top: 4px solid #123c69;
+  display: grid;
+  place-items: center;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.progress-card button {
+  display: block;
+  padding: .6rem 1rem;
+  width: 100%;
+  height: 45px;
+  background: #123c69;
+  color: #f0f8ff;
+  border: 1px solid #123c69;
+  border-radius: 3px;
+}
+
+.milestones h3 small {
+  color: #123c69;
+  font-weight: 600;
+  display: inline-block;
+  margin-left: 1rem;
+  font-size: .9rem;
+}
+
+.milestones table {
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.milestones table td div {
+  background: #bab2b5;
+  margin-bottom: 1rem;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: .5rem;
+  font-size: .85rem;
+  color: #444;
+}
+
+.milestones table td {
+  margin-bottom: 2rem;
 }
